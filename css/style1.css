@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+	background-image: url(../img/漫画.jpg);
+	 background-repeat: no-repeat;
+    background-size: cover; 
+}
+body::after{
+	
+	filter:blur(8px);
+}
+
+.Sele{
+	width:255px;
+	height: 30px;
+	margin:50px auto;
+	
+}
+.Sele select{
+	width: 80px;
+    height: 30px;
+}
+.Sele button{
+	width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+.Sele button:hover{
+	border:1px solid skyblue;
+}
+#imgs{
+	/*height: 240px;
+	width: 240px;*/
+	margin: auto;
+	border:1px solid #ccc;
+	display: none;
+}
+#imgs div{
+	height: 150px;
+	width: 150px;
+	/*margin: 5px;*/
+	border:1px solid #ccc;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 70px;
+	float: left;
+}
+#imgs div img{
+	height: 150px;
+	width: 150px;
+}
+
+a{
+	background-color: #cbb59e;
+	position: absolute;
+	bottom: 20px;
+	right: 50px;
+	width: 150px;
+	height: 40px;
+    text-align: center;	
+	border: 1px solid #FFF0F5;
+	border-radius: 8px;
+	list-style: none;
+	text-decoration:none;
+	font-size: 20px;
+	
+}
+a:hover{
+	background-color: burlywood;
+}
